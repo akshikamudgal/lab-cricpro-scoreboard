@@ -1,110 +1,85 @@
-/* Type your code here */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap%27);
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;800;900&display=swap%27);
-
-{
-    margin: 0px;
-    padding: 0px;
+#cricpro{
+    margin-top: 20px;
+    margin-left: 1300px;
 }
-
-/ styling logo */
-ul{
-    list-style:none;
-    display: flex;
-    justify-content:flex-end;
+#heading{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 60px;
+    font-size: 50px;
+    color: #000;
 }
-ul>li{
-    padding: 15px 30px;
+#secondheading{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 60px;
+    font-size: 23px;
+    color: rgb(114, 107, 107);
 }
-
-header{
-    display: flex;
-    flex-direction: column;
-    margin-top: 1px;
-    margin-left:70px;
+#bgimage{
+    margin-left: 650px;
 }
-
-h1{
-    font-size: 3em;
-    font-weight: bolder;
-    font-family: 'Nunito Sans';
-    text-shadow: 0px 4px 3px gray;
-}
-
-h3{
-    font-family: 'Nunito Sans';
-    color: gray;
-    line-height: 5px;
-    font-weight: 600;
-    font-size: 22px;
-    padding: 4px;
-    text-shadow: 0 1px 1px grey;
-}
-
-section{
-    width: 100%;
-    height: 450px;
-    background-size: 70% 600px;
+#bodypart {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    background-image: url("assets/background-image1.png");
     background-repeat: no-repeat;
-    background-position:right;
-    background-image: url(./assets/background-image1.png);
-    font-size: 18px;
+    background-position: right;
+    height: 531px;
+    margin-right: 20px;
 }
-
-table{
-    margin-left: 70px;
-    margin-top: 25px;
-    border-collapse: collapse;
-    width: 65%;
-    box-shadow: -3px 3px 3px 0px lightgray;
+.orangeheading {
+    margin-left: 855px;
 }
-
-a{
-    text-decoration: none;
-    color: rgb(85, 85, 253);
+#orangeheading{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:coral;
+    margin-left: 60px;
+    margin-right: 362px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(255, 255, 255);
+    display: flex;
 }
-
-td{
-    padding: 5px;
-    padding-left: 20px;
-    font-family: 'Nunito Sans';
+.tableboard{
+    margin-left: 60px;
+    padding-left: 15px;
+    background-color: rgb(255, 255, 255);
 }
-
-.INDIA{
-    background-color: rgb(250, 70, 70);
-    color: white;
+.lefttable{
+    width: 300px;
+    text-align: left;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
-
-#end{
-    text-align: right;
+.bowler {
+    width: 350px;
+    color: rgb(128, 128, 128);
 }
-.NAME{
-    background-color: white;
-    border-bottom: 2px solid lightgrey;
+.middletable{
+    width: 74px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
-
-.out{
-    color: grey;
+.extra{
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 681px;
     text-align: left;
 }
-
-.right{
-    text-align: right;
-    padding-right: 20px;
+.run{
+    background-color: rgb(255, 255, 255);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 357px;
+    text-align: left;
 }
-
-.center{
-    text-align: center;
-}
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
-	font-size: 18px;
-	font-family: Nunito Sans;
-    font-style: normal;
-    
+.didnotbatname{
+    width: 738px;
 }
